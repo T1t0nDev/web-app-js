@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> 
-    <title>Document</title>
+    <title>Учёт клиентов сервиса</title>
 </head>
 <body>
 
@@ -17,18 +17,28 @@
 
 <section>
     <h2>Список клиентов</h2>
+    
 </section>
 
   <div>
-    <button id="btnAll">Показать всех клиентов</button>
-    <button id="btnNew">Показать только NEW</button>
-    <button id="btnStats">Показать статистику</button>
+        <button id="btnAll">Показать все</button>
+        <button id="btnNew">Показать NEW</button>
+        <button id="btnSort">Сортировать по value ↓</button>
+        <button id="btnStats">Показать статистику</button>
+        <div id="message"></div>
   </div>
+  
 
-  <pre id="output"></pre>
+  <div id="list"></div>
 </section>
 
+<div id="message"></div>
 
+<div id="demoList"></div>
+
+<script src="data.js"></script>
+<script src="logic.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
